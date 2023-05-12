@@ -11,6 +11,14 @@
 	<groupId>com.filesMicroservices</groupId>
 	<artifactId>filesBase</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<scm>
+      <connection>scm:git:git://github.com/rafamDev/filesBase.git</connection>
+      <developerConnection>scm:git:ssh://github.com/rafamDev/filesBase.git</developerConnection>
+      <url>https://github.com/rafamDev/proyecto</url>
+      <tag>HEAD</tag>
+    </scm>
+	
 	<name>filesBase</name>
 	<description>Project for Spring Boot handling files</description>
 	<properties>
@@ -51,6 +59,25 @@
 			<artifactId>spring-batch-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.2</version>
+</dependency>	
+
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.5.7.Final</version>
+</dependency>	
+		
 	</dependencies>
 
 	<build>
